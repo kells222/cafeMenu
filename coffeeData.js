@@ -83,6 +83,15 @@ console.log(evenNum)
 
 
 // 5. Print the total if you were to order one of every drink.
+// not done 
+let drinkTotal = 0;
+for(let i=0;i<coffeeMenu.length;i++){
+    if(coffeeMenu[i].seasonal+-drinkTotal){
+        // console.log(coffeeMenu[i].name)
+        console.log(drinkTotal)
+    }
+}
+console.log("The total cost of one of every drink is $" + drinkTotal + ".");
 
 // 6. Print an array with all the drinks that are seasonal.
 let season = []
@@ -96,13 +105,14 @@ console.log(season)
 
 // 7. Print all the seasonal drinks with the words "with imported beans" after the item name. For example: "affogato with imported beans".
 // not done
-let seasons = []
-for(let i=0;i<coffeeMenu.length;i++){
-    if(coffeeMenu[i].seasonal===true){
-        console.log(coffeeMenu.name + " with imported beans");
-    }
-}
-console.log(seasons)
+// let seasons = []
+// for(let i=0;i<coffeeMenu.length;i++){
+//     if(coffeeMenu[i].seasonal===true){
+//         console.log(coffeeMenu.name + " with imported beans");
+//     }
+// }
+// console.log(seasons)
 
+// coffeeMenu.forEach(element=>console.log(element))
 
 
